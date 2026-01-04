@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Study Path Adviser</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Study Path Adviser</h1>
+        <p>Select your details to get a recommended study path</p>
+
+        <label>Education Level</label>
+        <select id="level">
+            <option value="">-- Select Level --</option>
+            <option value="intermediate">Intermediate</option>
+            <option value="bs">BS Computer Science</option>
+        </select>
+
+        <label>Interest Area</label>
+        <select id="interest">
+            <option value="">-- Select Interest --</option>
+            <option value="ai">Artificial Intelligence</option>
+            <option value="web">Web Development</option>
+            <option value="data">Data Science</option>
+            <option value="os">Operating Systems</option>
+        </select>
+
+        <button onclick="getPath()">Get Study Path</button>
+
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
