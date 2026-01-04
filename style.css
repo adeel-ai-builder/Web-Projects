@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+}
+
+.container {
+    width: 400px;
+    margin: 80px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+select, button {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+button {
+    margin-top: 20px;
+    background: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #2980b9;
+}
+
+#result {
+    margin-top: 20px;
+    padding: 10px;
+    background: #ecf0f1;
+    border-radius: 5px;
+}
+li {
+    margin: 10px 0;
+}
+
+li a {
+    margin-left: 15px;   /* gap from text */
+}
+
+li button {
+    padding: 3px 10px;
+    font-size: 12px;
+    background: #2ecc71;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+
+    width: auto;         /* IMPORTANT */
+    display: inline-block; /* IMPORTANT */
+}
+
+li button:hover {
+    background: #27ae60;
+}
+
+
+
